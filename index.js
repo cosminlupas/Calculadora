@@ -50,7 +50,7 @@ function comprovar_valors() {
   if (res.length > 0) {
     var text = "";
     res.forEach(function(item){
-      text += "Operand: " + (item + 1) + " Més de " + maxLength + " caracters.\n";
+      text = "Error algun numero mes de 5 digits";
     })
     debugger;
     document.getElementById("errors").innerText = text;
